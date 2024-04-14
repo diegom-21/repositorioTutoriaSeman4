@@ -81,3 +81,29 @@ footer {
     padding: 20px;
 }
 
+/* Animaciones */
+.producto:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+#titulo-principal:hover {
+    color: #ffffff; 
+    transition: color 0.3s ease-in-out; 
+}
+
+.producto:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+.producto img:hover {
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+footer:hover {
+    background-color: #555555;
+    transition: background-color 0.3s ease-in-out;
+}
